@@ -1,0 +1,22 @@
+table {
+    
+    width: 33.33%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+.table > tr > .no-line {
+    border-top: none;
+}
+
+.table > tr > .no-line {
+    border-bottom: none;
+}
+
+.table > tr > .thick-line {
+    border-top: 2px solid;
+}
